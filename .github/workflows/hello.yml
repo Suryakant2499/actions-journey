@@ -1,0 +1,8 @@
+name: hello
+on: push
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greet message
+        run: echo "Hello from VM"
